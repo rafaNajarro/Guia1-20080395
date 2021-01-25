@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#00aae4;
+  color: white;
+}
+
+header{
+  color: #5e6d81;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.bandera{
+  margin: auto;
+  display: block;
+  width: 800px;
+  margin-bottom: 2%;
+}
+.bandera_gm{
+  margin: auto;
+  display: block;
+  width: 400px;
+  height: 500px;
+  margin-bottom: 2%;
+}
+p{
+  color: #a4a4a4;
+  font-size: 20px;
+  line-height: 20px;
+  margin: auto;
+  width: 70%;
+  text-align: justify;
+}
+.extension{
+  text-align: center;
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+}
+section{
+  margin-top: 2%;
+}
+img {
+  border-radius: 8px;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.container .card{
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+.container .card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container .card img{
+  width: 330px;
+  height: 220px;
+}
+.container .card h4{
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.container .card p{
+  padding: 0 1rem;
+  font-size: 16px;
+  font-weight: 300;
+}
+
