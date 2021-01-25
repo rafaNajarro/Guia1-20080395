@@ -4,9 +4,7 @@
 }
 
 body{
-    background-image: url(../imagenes/datos_personales_wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #55cbcd;
 }
 
 h2{
