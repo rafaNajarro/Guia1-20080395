@@ -4,9 +4,7 @@
 }
 
 body{
-    background-image: url(../imagenes/adventure_time_wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #36465d;
 }
 
 .logo{
